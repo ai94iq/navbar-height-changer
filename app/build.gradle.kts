@@ -28,18 +28,15 @@ val ivKey = ByteArray(16).apply {
 }
 
 android {
-    compileSdkVersion(30)
+        compileSdk = 30
+        buildToolsVersion = "30.0.3"
 
-    defaultConfig {
-        // If you're planning to change up the package name, ensure you have read the readme
-        // thoroughly!
-        applicationId("substratum.theme.navbarh")
-        // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
-        // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
-        minSdkVersion(24)
-        // Both versions must be changed to increment on Play Store/user's devices
-        versionCode = 2
-        versionName = "2.0"
+        defaultConfig {
+            applicationId = "substratum.theme.navbarh"
+            minSdk = 24
+            targetSdk = 30
+            versionCode = 2
+            versionName = "5.0"
 
         // Themers: DO NOT MODIFY
         buildConfigField("boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "$SUPPORTS_THIRD_PARTY_SYSTEMS")
