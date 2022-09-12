@@ -1,7 +1,7 @@
-# Navbar Height Changer
+# Tiles Tweaks
 
-I made Substratum tweak to change Navbar Height, please use it with Stock ROMs only, it may cause problems with other ROMs
+i made Substratum tweak to change Tiles Columns, please use it with Stock ROMs only, 
 
-also dont use "0"dpi, if you dont have another navigation method
+or ROMs that doesnt have this feature baked in settings, it may cause problems with other ROMs
 
-xda thread: https://forum.xda-developers.com/t/mod-substratum-navbar-height-changer-v4-for-android.3447956/
+xda thread: https://forum.xda-developers.com/t/mod-substratum-tiles-tweaks-v5-for-android-nougat-7-x.3462404/

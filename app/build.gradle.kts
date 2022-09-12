@@ -32,11 +32,11 @@ android {
         buildToolsVersion = "30.0.3"
 
         defaultConfig {
-            applicationId = "substratum.theme.navbarh"
+            applicationId = "substratum.theme.tilesc"
             minSdk = 24
             targetSdk = 30
             versionCode = 2
-            versionName = "5.0"
+            versionName = "6.0"
 
         // Themers: DO NOT MODIFY
         buildConfigField("boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "$SUPPORTS_THIRD_PARTY_SYSTEMS")
